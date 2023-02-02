@@ -18,7 +18,7 @@ function index() {
             If you want to learn an academic subject or study for an exam, we
             want to be the company you choose. our tutors are bright and
             enthusiastic and seek to bring out the best of the individual
-            learner's potential in both academics as well as life
+            learners potential in both academics as well as life
           </p>
         </div>
         <div className="bg-[#C04C40] text-white text-center md:w-[12%] w-[50%] py-4 px-4 rounded-md mt-5 absolute left-24 md:left-0">

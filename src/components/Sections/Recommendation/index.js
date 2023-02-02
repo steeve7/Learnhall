@@ -34,9 +34,9 @@ export default function index() {
   return (
     <section className="md:mt-72 mt-24">
     <div className="md:w-[50%] text-center items-center md:ml-96">
-    <h1 className="text-[#070A13] md:text-4xl text-2xl">What are parent saying</h1>
+    <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">What are parent saying</h1>
     <p className="text-[#070A13] mt-4 md:max-w-[36.5rem]">
-     Read the reviews below to see what student parent's are saying about learnhall on Google
+     Read the reviews below to see what student parents are saying about learnhall on Google
      for our tutoring services.
     </p>
   </div>

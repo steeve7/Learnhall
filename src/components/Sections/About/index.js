@@ -25,14 +25,12 @@ export const items = [
     {
         image: Star,
         color: '#C13584',
-        bgColor: "bg-[rgba(255,123,176,0.1)]",
         tittle: 'Your Future',
         desc: "We share knowledge that can help in all areas of life, not just the subject's we are focusing on.",
     },
     {
         image: Love,
         color: '#C13584',
-        bgColor: "bg-[rgba(255,123,176,0.1)]",
         tittle: 'We Love Effort',
         desc: "The growth mindset is a lifelong asset. The result isn't nearly as important as the effort.",
     },
@@ -43,15 +41,15 @@ function index() {
     <>
     <div className="w-full md:mt-[900px] mt-[1100px] flex justify-center items-center flex-col">
       <div className="md:w-[50%] text-center">
-        <h1 className="text-[#070A13] md:text-4xl text-2xl">Why you should choose us</h1>
+        <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">Why you should choose us</h1>
         <p className="text-[#070A13] mt-4">
-          we love tutoring and we value the student's process. Our tutors focus
+          we love tutoring and we value the students process. Our tutors focus
           on each individual student and tailor the lessons around how she
           learns best.
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row w-[90%] md:mx-20 mx-20 justify-center">
+      <div className="flex flex-col md:flex-row w-full md:mx-20 mx-20 justify-center">
         {items.map((item, i) => (
         <div key={i} className=" bg-white shadow-md rounded-lg text-center w-full
         flex-1 text-center md:mt-10 px-[1.25rem] py-10 space-y-[0.6rem]">
@@ -61,9 +59,9 @@ function index() {
         bgColor={item.bgColor}
         style={{color:item.color}}
         alt='images'
-        className="bg-orange-300 text-center md:ml-28 ml-44"
+        className="bg-orange-300 md:ml-28 rounded-full px-2 py-2"
         />
-        <h5>{item.tittle}</h5>
+        <h5 className="font-semibold">{item.tittle}</h5>
         <p>{item.desc}</p>
         </div>
         ))}

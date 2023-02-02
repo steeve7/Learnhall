@@ -12,7 +12,7 @@ const navs = [
   { id: "Blog", label: "Blog" },
 ];
 
-function index() {
+function Index() {
   const [open, setIsOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
@@ -76,4 +76,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

@@ -4,6 +4,7 @@ import vector from "./assest/Vector.png";
 import { CgFacebook, CgInstagram } from "react-icons/cg";
 import { TiSocialTwitter } from "react-icons/ti";
 import { MdCall, MdOutlineMailOutline } from "react-icons/md";
+import Link from "next/link";
 
 function index() {
   return (
@@ -15,15 +16,15 @@ function index() {
             <h1 className="text-3xl text-white">Learnhall</h1>
           </a>
           <div className="flex md:flex-col flex-row space-x-2 md:space-x-0">
-            <h2 className="mt-6 text-white hidden md:block">Let's Connect</h2>
+            <h2 className="mt-6 text-white hidden md:block">Lets Connect</h2>
             <div className="flex mt-5 space-x-2">
-              <a href="">
+              <a href="&apos;">
                 <CgFacebook className="bg-white w-8 rounded-full h-8 text-blue-500 p-2" />
               </a>
-              <a href="">
+              <a href="&apos;">
                 <CgInstagram className="bg-white w-8 rounded-full h-8 text-blue-500 p-2" />
               </a>
-              <a href="">
+              <a href="&apos;">
                 <TiSocialTwitter className="bg-white w-8 rounded-full h-8 text-blue-500 p-2" />
               </a>
             </div>
@@ -43,13 +44,13 @@ function index() {
           <div>
             <h2 className="font-bold">About Us</h2>
             <ul>
-              <a href="">
+              <a href='hel&#39;lo'>
                 <li>FAQs</li>
               </a>
-              <a href="">
+              <a href='hel&#39;lo'>
                 <li>Blog</li>
               </a>
-              <a href="">
+              <a href='hel&#39;lo'>
                 <li>Reviews</li>
               </a>
             </ul>

@@ -26,7 +26,7 @@ export default function index() {
     <div className="w-full md:mt-[200px] mt-[100px] flex justify-center items-center flex-col">
     <div className='absolute w-[100px] h-[200px] right-0 hidden md:block rounded-r-2xl rounded-full top-[1400.05px] bg-red-800'/>
     <div className="md:w-[50%] text-center">
-    <h1 className="text-[#070A13] md:text-4xl text-2xl">How our service works</h1>
+    <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">How our service works</h1>
     <p className="text-[#070A13] mt-4">
      follow the three steps below to book your first session and get started with a tutor
     </p>
