@@ -4,7 +4,6 @@ import vector from "./assest/Vector.png";
 import { CgFacebook, CgInstagram } from "react-icons/cg";
 import { TiSocialTwitter } from "react-icons/ti";
 import { MdCall, MdOutlineMailOutline } from "react-icons/md";
-import Link from "next/link";
 
 function index() {
   return (
