@@ -14,14 +14,14 @@ function index() {
         <p className="text-[#070A13] mt-4">if you want to work with us please click a button below to fill out a short form and 
         we will be in contact within 24-48 hours for a perspective interview.
         </p>
-        <button className='bg-red-900 px-4 py-4 rounded-2xl mt-4 text-white'>Become a Tutor</button>
+        <button className='bg-red-900 px-4 py-4 rounded-2xl mt-3 text-white'>Become a Tutor</button>
        </div>
        <div className=" md:w-[540px] h-[400px] absolute mt-3 w-full hidden md:block md:right-0  bg-[#B84B40] rounded-l-xl"/>
        <div className="absolute w-44 h-20 right-0 mt-[420px] hidden md:block bg-orange-400 rounded-tl-full rounded-tr-full" />
             <Image 
                 src={Tutor}
                 alt="Tutor image"
-                className='md:w-[40%] bg-amber-100 absolute w-full md:ml-20 md:right-20 md:mt-14 mt-[415px] rounded-2xl'
+                className='md:w-[40%] bg-amber-100 absolute w-full md:ml-20 md:right-20 md:mt-14 mt-[411px] rounded-2xl'
             />
     </section>
   )
