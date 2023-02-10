@@ -33,24 +33,24 @@ function Index () {
     <>
     <div className="w-full md:mt-[900px] mt-[1100px] flex justify-center items-center flex-col">
       <div className="md:w-[50%] text-center">
-        <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">Why you should choose us</h1>
-        <p className="text-[#070A13] mt-4">
-          we love tutoring and we value the students process. Our tutors focus
+        <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold mt-20 md:mt-0">Why you should choose us</h1>
+        <p className="text-[#070A13] mt-4 px-5 md:px-0">
+          We love tutoring and we value the students process. Our tutors focus
           on each individual student and tailor the lessons around how she
           learns best.
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row w-full md:mx-20 mx-20 justify-between">
+      <div className="flex flex-col mt-10 md:flex-row w-full md:px-32 mx-20 justify-between md:space-x-8 space-y-5 px-4">
         {items.map((item, i) => {
           const {icon, tittle, desc } = item
           return (
-            <div key={i} className=" bg-white shadow-md rounded-lg text-center w-full
-        flex-1 justify-center text-center md:mt-10 px-[1.25rem] py-10 space-y-[0.6rem]">
+            <div key={i} className=" bg-white shadow-lg rounded-lg text-center w-full
+        flex-1 justify-center text-center md:px-4 px-5 md:mt-10 py-10">
         
         <p className="inline-block">{icon}</p>
         <h5 className="font-semibold">{tittle}</h5>
-        <p>{desc}</p>
+        <p className="px-5">{desc}</p>
         </div>
           )
         })}

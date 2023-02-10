@@ -27,15 +27,15 @@ export default function index() {
     <div className='absolute w-[100px] h-[200px] right-0 hidden md:block rounded-r-2xl rounded-full top-[1400.05px] bg-red-800'/>
     <div className="md:w-[50%] text-center">
     <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">How our service works</h1>
-    <p className="text-[#070A13] mt-4">
-     follow the three steps below to book your first session and get started with a tutor
+    <p className="text-[#070A13] mt-4 px-5">
+     Follow the three steps below to book your first session and get started with a tutor
     </p>
   </div>
-  <div className="absolute w-[300px] h-[140px] left-[-17px] md:top-[1900px] hidden md:block bg-red-800 rounded-tl-full rounded-tr-full"></div>
+  <div className="absolute w-[300px] h-[140px] left-[-17px] md:top-[1950px] hidden md:block bg-red-800 rounded-tl-full rounded-tr-full"></div>
   <Image 
     src={girl}
     alt="second girl"
-    className='bg-amber-100 md:w-[500px] absolute h-[370px] md:top-[1640px] mt-[-300px] md:mt-0 md:left-0 rounded-2xl'
+    className='bg-amber-100 md:w-[500px] absolute h-[320px] md:top-[1640px] mt-[-300px] md:mt-20 md:left-0 rounded-2xl'
     />
 
     <div className="flex flex-col md:flex-col md:mt-0 md:w-[30%] justify-center mt-[450px]">

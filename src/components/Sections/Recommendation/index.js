@@ -1,13 +1,85 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css'
+import { Swiper, SwiperSlide } from "swiper/react";
+// import 'swiper/css'
 import SwiperCore, { Autoplay } from "swiper";
 import Avatar1 from "./assest/avatar1.png";
 import Avatar2 from "./assest/avatar2.png";
 import Avatar3 from "./assest/avatar3.png";
 import Avatar4 from "./assest/avatar4.png";
 import Image from "next/image";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "#B84B40",
+        borderRadius: "50px",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "#B84B40",
+        borderRadius: "50px",
+      }}
+      onClick={onClick}
+    />
+  );
+}
 
 export default function index() {
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   const items = [
     {
       image: Avatar1,
@@ -30,32 +102,23 @@ export default function index() {
       desc: "i've worked with many educations, but very few who are as encouraging, thorough, and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a... read more",
     },
   ];
-  SwiperCore.use([Autoplay]);
+  // SwiperCore.use([Autoplay]);
   return (
     <section className="md:mt-72 mt-24">
-    <div className="md:w-[50%] text-center items-center md:ml-96">
-    <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">What are parent saying</h1>
-    <p className="text-[#070A13] mt-4 md:max-w-[36.5rem]">
-     Read the reviews below to see what student parents are saying about learnhall on Google
-     for our tutoring services.
-    </p>
-  </div>
+      <div className="md:w-[50%] text-center items-center md:ml-96">
+        <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">
+          What are parents saying
+        </h1>
+        <p className="text-[#070A13] mt-4 md:max-w-[36.5rem]">
+          Read the reviews below to see what students parents are saying about
+          learnhall on Google for our tutoring services.
+        </p>
+      </div>
 
-      <div className="max-w-[47rem] flex mx-auto py-8">
-        <Swiper
-        spaceBetween={20}
-          slidesPerView={2}
-          loop={true}
-          autoplay={{ delay: 3000 }}
-          centeredSlides={true}
-          breakpoints={{
-            1000: { slidesPerView: 2 },
-            // 600: { slidesPerView: 1, spaceBetween: 10 },
-          }}
-        >
-            {items.map((item, i) => (
-          <SwiperSlide
-            className="px-8 rounded-3xl my-10 shadow-lg"
+      <Slider {...settings} className="md:w-[80%] mx-auto w-[80%]">
+        {items.map((item, i) => (
+          <div
+            className="px-8 rounded-3xl my-10 shadow-lg md:w-[50%] md:space-x-4"
             key={i}
           >
             <div className="flex">
@@ -113,12 +176,9 @@ export default function index() {
             <div className="w-full">
               <p className="my-4">{item.desc}</p>
             </div>
-          </SwiperSlide>
+          </div>
         ))}
-        </Swiper>
-        
-      </div>
+      </Slider>
     </section>
   );
 }
-

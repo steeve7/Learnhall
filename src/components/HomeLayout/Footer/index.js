@@ -82,7 +82,7 @@ function index() {
             <h2 className="font-bold text-white ml-4 md:ml-0">
               Subscribe to our free e-newsletter
             </h2>
-            <div className="flex space-x-2 ml-4 md:ml-0">
+            <div className="flex space-x-2 ml-4 md:ml-0 items-center md:flex-0">
               <input
                 type="text"
                 placeholder="Email address"
@@ -90,7 +90,7 @@ function index() {
               />
               <button
                 type="submit"
-                className="bg-red-900 md:ml-3 px-3 rounded font-bold text-white mt-3"
+                className="bg-red-900 md:ml-3 px-3 rounded font-bold text-white py-2 mt-4"
               >
                 Subscribe
               </button>
@@ -98,7 +98,7 @@ function index() {
           </div>
         </section>
       </div>
-      <hr className="md:w-[90%] md:ml-10 w-full md:mt-[-20px] hidden md:block" />
+      <hr className="md:w-[90%] md:ml-10 w-full md:mt-[-20px] hidden md:block text-[#E0E0E0]" />
       <div className="py-2 mt-[300px] md:mt-0">
         <p className="text-white md:ml-10 ml-4 md:mt-4">
           Copyright 2016-2022 Learnhall LLC
