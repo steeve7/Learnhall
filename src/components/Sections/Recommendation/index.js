@@ -104,7 +104,7 @@ export default function index() {
   ];
   // SwiperCore.use([Autoplay]);
   return (
-    <section className="md:mt-72 mt-24">
+    <section className="md:mt-72 mt-20">
       <div className="md:w-[50%] text-center items-center md:ml-96">
         <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">
           What are parents saying

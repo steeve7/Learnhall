@@ -11,7 +11,7 @@ function index() {
             on our tutor onboarding process and high industry pay. Our tutors work in-person and online. we gamer
             regular inquires for all academic and test prep subject at all age levels.
         </p>
-        <p className="text-[#070A13] mt-4">if you want to work with us please click a button below to fill out a short form and 
+        <p className="text-[#070A13] mt-4 px-5">if you want to work with us please click a button below to fill out a short form and 
         we will be in contact within 24-48 hours for a perspective interview.
         </p>
         <button className='bg-red-900 px-4 py-4 rounded-2xl mt-3 text-white'>Become a Tutor</button>
@@ -21,7 +21,7 @@ function index() {
             <Image 
                 src={Tutor}
                 alt="Tutor image"
-                className='md:w-[40%] bg-amber-100 absolute w-full md:ml-20 md:right-20 md:mt-14 mt-[390px] rounded-2xl'
+                className='md:w-[40%] bg-amber-100 absolute w-full md:ml-20 md:right-20 md:mt-14 mt-[350px] rounded-2xl'
             />
     </section>
   )

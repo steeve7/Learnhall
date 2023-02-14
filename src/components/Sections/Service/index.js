@@ -38,7 +38,7 @@ export default function index() {
     className='bg-amber-100 md:w-[500px] absolute h-[320px] md:top-[1640px] mt-[-300px] md:mt-20 md:left-0 rounded-2xl'
     />
 
-    <div className="flex flex-col md:flex-col md:mt-0 md:w-[30%] justify-center mt-[450px]">
+    <div className="flex flex-col md:flex-col md:mt-0 md:w-[30%] justify-center mt-[350px]">
     <div className='md:ml-80 absolute hidden md:block mt-28'>
       <p className='bg-orange-500 w-12 h-12 rounded-full text-center text-white text-4xl md:mt-[20px]'>1</p>
       <p className='rotate-90 font-bold mt-5 ml-1 text-[#ADAFB3]'>.............</p>
