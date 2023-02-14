@@ -6,8 +6,8 @@ import Number from "./number";
 
 const navs = [
   { id: `/`, label: "Home" },
-  { id: "Book", label: "Book a Session" },
-  { id: "Become", label: "Become a Tutor" },
+  { id: "bookSession", label: "Book a Session" },
+  { id: "tutor", label: "Become a Tutor" },
   { id: "Blog", label: "Blog" },
 ];
 
@@ -62,10 +62,10 @@ function Index() {
               : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 w-full h-screen bg-white text-center ease-in duration-700 text-black"
           }
         >
-        <a href="" className="flex items-center mt-5 px-3">
+        <div href="" className="flex items-center mt-5 px-3">
           <Image src={vector} alt="header-icon" className="w-8"/>
           <h1 className="text-3xl text-[#A63634]">Learnhall</h1>
-        </a>
+        </div>
           <ul className="mt-8">
             {navs.map((nav, i) => (
               <li key={i} className="p-4 text-[15px] hover:text-gray-500 border-b-2 py-4">
