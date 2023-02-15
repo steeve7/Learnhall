@@ -21,7 +21,7 @@ function index() {
             <Image 
                 src={Tutor}
                 alt="Tutor image"
-                className='md:w-[40%] bg-amber-100 absolute w-full md:ml-20 md:right-20 md:mt-14 md:h-96 h-[280px] mt-[420px] rounded-2xl'
+                className='md:w-[40%] bg-amber-100 absolute w-full md:ml-20 md:right-20 md:mt-14 mt-[420px] rounded-2xl'
             />
     </section>
   )

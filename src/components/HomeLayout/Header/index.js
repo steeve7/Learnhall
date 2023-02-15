@@ -44,7 +44,7 @@ function Index() {
         <ul className="hidden sm:flex text-gray-700">
           {navs.map((nav, i) => (
             <li key={i} className="p-7 text-[20px]">
-              <a href={nav.id} activeClass='active'>{nav.label}</a>
+              <a href={nav.id} activeclass='active'>{nav.label}</a>
             </li>
           ))}
           <Number />
