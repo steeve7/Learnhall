@@ -105,11 +105,11 @@ export default function index() {
   // SwiperCore.use([Autoplay]);
   return (
     <section className="md:mt-72 mt-20">
-      <div className="md:w-[50%] text-center items-center md:ml-96">
-        <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">
+      <div className="md:w-[50%] text-center items-center md:ml-80 w-full">
+        <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold text-center">
           What are parents saying
         </h1>
-        <p className="text-[#070A13] mt-4 md:max-w-[36.5rem]">
+        <p className="text-[#070A13] mt-4 text-center px-6">
           Read the reviews below to see what students parents are saying about
           learnhall on Google for our tutoring services.
         </p>
