@@ -8,7 +8,7 @@ import { MdCall, MdOutlineMailOutline } from "react-icons/md";
 function index() {
   return (
     <footer className="bg-[#1F3158] w-full h-[470px]">
-      <div className="flex md:flex-row md:mt-[500px] mt-[900px] w-full ">
+      <div className="flex md:flex-row md:mt-[500px] mt-[850px] w-full ">
         <section className="md:m-20">
           <a href="" className="flex items-center m-2 md:m-0 mt-2">
             <Image src={vector} alt="header-icon" className="w-8 bg-white" />
