@@ -8,7 +8,7 @@ import { MdCall, MdOutlineMailOutline } from "react-icons/md";
 function index() {
   return (
     <footer className="bg-[#1F3158] w-full h-[470px]">
-      <div className="flex md:flex-row md:mt-[500px] mt-[800px] w-full ">
+      <div className="flex md:flex-row md:mt-[500px] mt-[900px] w-full ">
         <section className="md:m-20">
           <a href="" className="flex items-center m-2 md:m-0 mt-2">
             <Image src={vector} alt="header-icon" className="w-8 bg-white" />
@@ -101,7 +101,7 @@ function index() {
       <hr className="md:w-[90%] md:ml-10 w-full md:mt-[-20px] hidden md:block text-[#E0E0E0]" />
       <div className="py-2 mt-[300px] md:mt-0">
         <p className="text-white md:ml-10 ml-4 md:mt-4">
-          Copyright 2016-2022 Learnhall LLC
+          Copyright 2016-2023 Learnhall LLC
         </p>
         <p className="text-white md:ml-[1100px] ml-4 md:mt-[-30px]">
           Privacy Policy
