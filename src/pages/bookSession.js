@@ -145,7 +145,7 @@ const bookSession = () => {
 
           <div className="p-7 text-[20px] flex items-center bg-gray-200 mx-12 mt-5 rounded-lg cursor-pointer">
             <BsFillTelephoneFill className="mt-2 mr-2" />
-            <p>123-123-1234</p>
+            <p>503-342-7214</p>
           </div>
           <div className="p-7 text-[20px] flex items-center bg-gray-200 mx-12 mt-5 rounded-lg cursor-pointer">
             <FaRegEnvelope className="mt-2 mr-2" />

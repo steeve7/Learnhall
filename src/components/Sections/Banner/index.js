@@ -11,14 +11,14 @@ function index() {
           Tutoring Done Right
         </h1>
         <h5 className="md:text-[25px] text-gray-500 md:leading-[50px] text-[19px] mt-5">
-          private in-person & online tutoring
+          Private in-person & online tutoring
         </h5>
         <div className="md:w-[30%] w-full mt-8 px-4 md:px-0">
           <p className="">
             If you want to learn an academic subject or study for an exam, we
-            want to be the company you choose. our tutors are bright and
+            want to be the company you choose. Our tutors are bright and
             enthusiastic and seek to bring out the best of the individual
-            learners potential in both academics as well as life
+            learners potential in both academics as well as life.
           </p>
         </div>
         <div className="bg-[#C04C40] text-white text-center md:w-[12%] w-[50%] py-4 px-4 rounded-md mt-12 absolute left-24 md:left-0">

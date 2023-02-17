@@ -2,7 +2,7 @@ import React from 'react'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 
 const navs = [
-    { id: "number", label: "123-123-1234" },
+    { id: "number", label: "503-342-7214" },
   ];
 
 function number() {

@@ -7,17 +7,17 @@ export default function index() {
     {
       number: '1',
       tittle: 'Step One',
-      desc: "inquire about our tutoring services by filling-out and submitting the 'Book a Session' form "
+      desc: "Inquire about our tutoring services by filling-out and submitting a form. "
     },
     {
       number: '2',
       tittle: 'Step Two',
-      desc: "Within 24 hours an advisor will contact you to go over the student's tutoring goal and needs."
+      desc: "Within 24 hours, an advisor will contact you to go over your tutoring goals and needs."
     },
     {
       number: '3',
       tittle: 'Step Three',
-      desc: "The advisor will find an ideal tutor match and set up a free session to ensure she is the right fit."
+      desc: "The advisor will find an ideal tutor match and set up a first session."
     },
   ]
 
@@ -26,7 +26,7 @@ export default function index() {
     <div className="w-full md:mt-[200px] mt-[100px] flex justify-center items-center flex-col">
     <div className='absolute w-[100px] h-[200px] right-0 hidden md:block rounded-r-2xl rounded-full top-[1400.05px] bg-red-800'/>
     <div className="md:w-[50%] text-center">
-    <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">How our service works</h1>
+    <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold">How Our Service Works</h1>
     <p className="text-[#070A13] mt-4 px-5">
      Follow the three steps below to book your first session and get started with a tutor
     </p>

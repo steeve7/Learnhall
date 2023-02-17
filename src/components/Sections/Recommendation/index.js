@@ -84,22 +84,22 @@ export default function index() {
     {
       image: Avatar1,
       name: "Stacy L",
-      desc: "i've worked with many educations, but very few who are as encouraging, thorough, and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a... read more",
+      desc: "i've worked with many educations, but very few who are as encouraging, thorough, and as passionate as Mike. He enters every tutoring session seemingly excited for math",
     },
     {
       image: Avatar2,
       name: "Tabitha S",
-      desc: "i've worked with many educations, but very few who are as encouraging, thorough, and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a... read more",
+      desc: "Mike has been working with my two girls on math for a few weeks now. He is a great teacher and my girls are telling me that they really feel like they understand the concept well for the first time.",
     },
     {
       image: Avatar3,
       name: "Mandy R",
-      desc: "i've worked with many educations, but very few who are as encouraging, thorough, and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a... read more",
+      desc: "Mike tutored my 17 year old with math and english. He is extremely knowledgeable, passionate, engaging and funny too! Mike took time to understand the learning style that worked best.",
     },
     {
       image: Avatar4,
       name: "Stephen",
-      desc: "i've worked with many educations, but very few who are as encouraging, thorough, and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a... read more",
+      desc: "My learnhall tutor was phenomenal. he helped me ace a calculus class that i have been struggling in. i couldn't have asked for a better tutor. Learnhall is great.",
     },
   ];
   // SwiperCore.use([Autoplay]);

@@ -20,12 +20,12 @@ function Index () {
     },
     {   icon: <FaRegStar className="bg-[#B84B40] text-white w-14 rounded-full h-14 px-3 py-2"/>,
         tittle: 'Your Future',
-        desc: "We share knowledge that can help in all areas of life, not just the subject's we are focusing on.",
+        desc: "We share knowledge that can help in all areas of life, not just the subjects we are focusing on.",
     },
     {
         icon: <GiSelfLove className="bg-[#A1A2A6] text-white w-14 rounded-full h-14 px-3 py-2"/>,
         tittle: 'We Love Effort',
-        desc: "The growth mindset is a lifelong asset. The result isn't nearly as important as the effort.",
+        desc: "Having a growth mindset is a lifelong asset. This means that the result isn't nearly as important as the effort.",
     },
 ]
 
@@ -33,10 +33,10 @@ function Index () {
     <>
     <div className="w-full md:mt-[900px] mt-[1100px] flex justify-center items-center flex-col">
       <div className="md:w-[50%] text-center">
-        <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold mt-20 md:mt-0">Why you should choose us</h1>
+        <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold mt-20 md:mt-0">Why You should choose us</h1>
         <p className="text-[#070A13] mt-4 px-5 md:px-0">
-          We love tutoring and we value the students process. Our tutors focus
-          on each individual student and tailor the lessons around how she
+          We love tutoring and we value the student's process. Our tutors focus
+          on each individual student and tailor the lessons around how he/she
           learns best.
         </p>
       </div>
