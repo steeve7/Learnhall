@@ -32,7 +32,7 @@ function Index() {
   });
   return (
     <div
-      className={`fixed w-full left-0 top-0 w-full z-10 ${
+      className={`fixed w-full left-0 top-0 z-10 ${
         navbar ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >

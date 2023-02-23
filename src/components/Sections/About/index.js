@@ -11,7 +11,7 @@ function Index () {
     {
         icon: <SlDiamond className="bg-[#FB8E42] text-white w-14 rounded-full h-14 px-3 py-2"/>,
         tittle: 'Well-Vetted Tutors',
-        desc: 'Oue tutors are highly qualified, passionate, and well-educated at top universities.',
+        desc: 'Our tutors are highly qualified, passionate, and well-educated at top universities.',
     },
     {
         icon: <RxPlay className="bg-[#233C7E] text-white w-14 rounded-full h-14 px-3 py-2"/>,
