@@ -35,7 +35,7 @@ function Index () {
       <div className="md:w-[50%] text-center">
         <h1 className="text-[#070A13] md:text-4xl text-2xl font-semibold mt-20 md:mt-0">Why You should choose us</h1>
         <p className="text-[#070A13] mt-4 px-5 md:px-0">
-          We love tutoring and we value the student's process. Our tutors focus
+          We love tutoring and we value the student&apos;s process. Our tutors focus
           on each individual student and tailor the lessons around how he/she
           learns best.
         </p>
@@ -45,7 +45,7 @@ function Index () {
         {items.map((item, i) => {
           const {icon, tittle, desc } = item
           return (
-            <div key={i} className=" bg-white shadow-lg rounded-lg text-center w-full
+            <div key={i} className=" bg-white shadow-lg rounded-lg w-full
         flex-1 justify-center text-center md:px-4 px-5 md:mt-10 py-10">
         
         <p className="inline-block">{icon}</p>
