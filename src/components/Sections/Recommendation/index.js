@@ -110,7 +110,7 @@ export default function index() {
           What are parents saying
         </h1>
         <p className="text-[#070A13] mt-4 text-center px-6">
-          Read the reviews below to see what students parents are saying about
+          Read the reviews below to see what student&apos;s parents are saying about
           learnhall on Google for our tutoring services.
         </p>
       </div>
