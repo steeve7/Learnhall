@@ -6,7 +6,7 @@ import { TbCurrencyDollar } from "react-icons/tb";
 import { GiGraduateCap } from "react-icons/gi";
 import emailjs from '@emailjs/browser'
 
-const tutor = () => {
+const Tutor = () => {
   const [first_name, setFirstName] = useState();
   const [last_name, setLastName] = useState();
   const [user_email, setEmail] = useState();
@@ -315,4 +315,4 @@ const tutor = () => {
   );
 };
 
-export default tutor;
+export default Tutor;

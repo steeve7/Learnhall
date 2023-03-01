@@ -5,7 +5,7 @@ import { FaRegEnvelope } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import emailjs from '@emailjs/browser'
 
-const bookSession = () => {
+const BookSession = () => {
     const [first_name, setFirstName] = useState();
     const [last_name, setLastName] = useState();
     const [user_email, setEmail] = useState();
@@ -277,4 +277,4 @@ const bookSession = () => {
   );
 };
 
-export default bookSession;
+export default BookSession;
