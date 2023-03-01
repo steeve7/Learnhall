@@ -6,8 +6,8 @@ import Number from "./number";
 
 const navs = [
   { id: `/`, label: "Home" },
-  { id: "bookSession", label: "Book a Session" },
-  { id: "tutor", label: "Become a Tutor" },
+  { id: "BookSession", label: "Book a Session" },
+  { id: "Tutor", label: "Become a Tutor" },
   { id: "Blog", label: "Blog" },
 ];
 

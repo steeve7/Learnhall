@@ -3,7 +3,8 @@ import Header from "../components/HomeLayout/Header";
 import Footer from "../components/HomeLayout/Footer";
 import { FaRegEnvelope } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
+import {toast} from 'react-toastify'
 
 const BookSession = () => {
     const [first_name, setFirstName] = useState();
@@ -17,15 +18,15 @@ const BookSession = () => {
     const [why, setWhy] = useState();
     const [formError, setFormError] = useState({});
     const [isSubmit, setIsSubmit] = useState(false)
+    const [send, setSend] = useState(false);
     const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
     setFormError(validate(first_name,last_name,user_email,phone,location,zip_code,student_grade,student_subject,why));
     setIsSubmit(true) 
-
-
-    emailjs.sendForm('service_fz1l9la', 'template_gn1jgrk', form.current, 'RxF_geLGHEYY7wMTS')
+    if (send){
+      emailjs.sendForm('service_fz1l9la', 'template_gn1jgrk', form.current, 'RxF_geLGHEYY7wMTS')
       .then((result) => {
           console.log(result.text);
           setFirstName("");
@@ -40,18 +41,21 @@ const BookSession = () => {
       }, (error) => {
           console.log(error.text);
       });
+    }
   };
 
   useEffect(() =>{
     console.log(formError)
-    if(Object.keys(formError).length == 0 && isSubmit){
+    if(Object.keys(formError).length == 0){
+      if(isSubmit){
+        setSend(true);
+      }
     }
   },[formError])
 
   const validate = () => {
     const errors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
-    // if(!first_name || !last_name || !user_email || !phone || !)
     if(!first_name){
       errors.first_name = "FirstName required!"
     }
@@ -227,6 +231,7 @@ const BookSession = () => {
                   onChange={e=>setStudent(e.target.value)}
                   id=""
                   className="border shadow w-full md:w-[150%] py-1 mt-2"
+                
                 />
                 <p className="text-red-400 text-[15px]">{formError.student_subject}</p>
               </div>

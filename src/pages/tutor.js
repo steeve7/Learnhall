@@ -17,6 +17,7 @@ const Tutor = () => {
   const [school, setSchool] = useState();
   const [about, setAbout] = useState();
   const [subject, setSubject] = useState({});
+  const [send, setSend] = useState(false);
   const [formError, setFormError] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
 
@@ -27,8 +28,8 @@ const Tutor = () => {
     setFormError(validate(first_name,last_name,user_email,phone,location,zip_code,education,school,about,subject));
     setIsSubmit(true) 
 
-
-    emailjs.sendForm('service_fz1l9la', 'template_bc89d2y', form.current, 'RxF_geLGHEYY7wMTS')
+    if(send){
+      emailjs.sendForm('service_fz1l9la', 'template_bc89d2y', form.current, 'RxF_geLGHEYY7wMTS')
       .then((result) => {
           console.log(result.text);
           setFirstName("");
@@ -44,11 +45,16 @@ const Tutor = () => {
       }, (error) => {
           console.log(error.text);
       });
+    }
+    
   };
 
   useEffect(() =>{
     console.log(formError)
-    if(Object.keys(formError).length == 0 && isSubmit){
+    if(Object.keys(formError).length == 0){
+      if(isSubmit){
+        setSend(true)
+      }
     }
   },[formError]);
 
